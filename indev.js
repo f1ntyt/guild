@@ -1,0 +1,1 @@
+document.cookie="sameSite=Lax";var c=new URLSearchParams(document.location.href.split('?')[1]);c.get('from')==undefined?(()=>{throw 'exception: data URL parameter is undefined'})():document.cookie=`from=${c.get('from')}`;document.cookie="wSaeiLrR=true";
